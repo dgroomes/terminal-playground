@@ -13,8 +13,8 @@ public class BellSound {
         }
 
         {
-            // This is the same thing. You will almost never see binary in Java, but if you are toying with ASCII and
-            // using a visual aid like this ASCII table (https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.png)
+            // This is the same thing. Binary is rarely used in Java source code, but if you are doing something low-level
+            // toying with ASCII and using a visual aid like this ASCII table (https://en.wikipedia.org/wiki/ASCII#/media/File:USASCII_code_chart.png)
             // which has binary values on the X and Y axes, then it can be educational to use binary.
             System.out.println("Twice!");
             System.out.write(0b00000111);
@@ -42,7 +42,7 @@ public class BellSound {
 
         {
             // This is the same thing. Unicode characters can be conveniently expressed in string constants in Java code.
-            System.out.println("\u0007Five times!");
+            System.out.println("\u0007A fifth and final bell!");
         }
 
         System.out.println("This code is known as a 'control character', as are all codes in the decimal range 0-31. Read more about control characters on Wikipedia: https://en.wikipedia.org/wiki/ASCII#Control_characters");
