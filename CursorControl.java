@@ -16,13 +16,15 @@ public class CursorControl {
     {
       Thread.sleep(1000);
       System.out.print("\u001B[1;K");
+      System.out.print("\u001B[1;G");
       System.out.print("Hello again!");
     }
 
     {
       Thread.sleep(1000);
       System.out.print("\u001B[1;K");
-      System.out.print("Goodbye!");
+      System.out.print("\u001B[1;G");
+      System.out.println("Goodbye!");
     }
   }
 }
