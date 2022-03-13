@@ -25,9 +25,12 @@ Follow these instructions to run the Java programs.
 2. Compile and run a program that produces a bell sound:
    * `java BellSound.java`
    * Note: Java's support for single-file source-code programs came in Java 11 with <https://openjdk.java.net/jeps/330>
-2. Compile and run a program that produces stylized text output:
+3. Compile and run a program that produces stylized text output:
    * `java StylizedText.java`
+4. Try the other programs:
+   * `java CursorControl.java`
 
 ## Reference
 
 * [Wikipedia: "SGR (Select Graphic Rendition) parameters"](https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_(Select_Graphic_Rendition)_parameters)
+* [Wikipedia: "ANSI escape code" sub-section "CSI (Control Sequence Introducer) sequences"](https://en.wikipedia.org/wiki/ANSI_escape_code#CSI_(Control_Sequence_Introducer)_sequences)
